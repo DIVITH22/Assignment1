@@ -1,0 +1,28 @@
+package switch1;
+import java.util.Scanner;
+public class colors{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		char color=sc.next().toUpperCase().charAt(0);
+		switch(color) {
+		case 'R':
+			System.out.println("R");
+			break;
+		case 'B':
+			System.out.println("B");
+			break;
+		case 'G':
+			System.out.println("G");
+			break;
+		case 'O':
+			System.out.println("O");
+			break;
+		case 'Y':
+			System.out.println("Y");
+			break;
+		case 'W':
+			System.out.println("W");
+			break;
+		}
+	}
+}

@@ -1,0 +1,21 @@
+package Arrays;
+public class maxmin {
+    public static void main(String[] args) {
+        int[] numbers = {25, 10, 55, 43, 5, 99, 18};
+
+        int max = numbers[0];
+        int min = numbers[0];
+
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] > max) {
+                max = numbers[i];
+            }
+            if (numbers[i] < min) {
+                min = numbers[i];
+            }
+        }	
+
+        System.out.println("Maximum value in the array: " + max);
+        System.out.println("Minimum value in the array: " + min);
+    }
+}

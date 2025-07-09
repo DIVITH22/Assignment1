@@ -1,0 +1,15 @@
+package switch1;
+import java.util.Scanner;
+public class evenloop {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int f=sc.nextInt();
+		int e=sc.nextInt();
+		for(int i=f;i<=e;i++) {
+			if(i%2==0) {
+			System.out.println(i);
+			}
+		}
+		
+	}
+}
